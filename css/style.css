@@ -1,0 +1,81 @@
+/* Copyright 2014 Kirill Dyatlov */
+
+html {height: 100%;}
+body{font-size: .8em;}
+.page {min-width: 995px;min-height: 100%;padding: 0 20px;}
+.layout{width: 100%;}
+.layout:after,
+.layout:before {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+
+.pull-right {float: right!important;}
+
+
+/* HEADERS */
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+}
+h1 {
+    font-size: 230%;
+    margin: 0.25em 0 0 0;
+    padding: 0;
+    line-height: 1;
+}
+h2, h3 {
+    line-height: 1.2;
+    margin: 0.4em 0 0 0;
+    padding: 0.5em 0 0 0;
+}
+h2 {font-size: 170%;}
+h3 {font-size: 148%;}
+h4, h5 {
+    font-size: 120%;
+    line-height: 1.3;
+    margin: 0.4em 0 0 0;
+    padding: 0.6em 0 0 0;
+}
+h5 {
+    font-size: 90%;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+/* SPECIALS */
+p, ul, ol, dl, .data, .comment, picture, .footnotes {
+    padding: 0;
+    margin: 0.8em 0 0;
+}
+
+/*GRID SYSTEM*/
+.grid1 {width: 8.33333333%;}
+.grid2 {width: 16.66666666%;}
+.grid3 {width: 25%;}
+.grid4 {width: 33.33333333%;}
+.grid5 {width: 41.66666666%;}
+.grid6 {width: 50%;}
+.grid7 {width: 58.33333333%;}
+.grid8 {width: 66.66666666%;}
+.grid9 {width: 75%;}
+.grid12 {width: 100%;}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {float: right;}

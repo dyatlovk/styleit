@@ -1,0 +1,78 @@
+/* ©2014 Kirill Dyatlov */
+
+@charset "utf-8";
+
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    outline:none;
+}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    vertical-align: top;
+}
+body {
+    height: 100%;
+    min-height:100%;
+    line-height: 1.5em;
+    background: white;
+    color: black;
+    font: 100%/1.5 'Helvetica Neue', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    }
+select, textarea, .textbox{font:11px 'Helvetica Neue', 'Arial', sans-serif;}
+fieldset{border:none;}
+legend{display:none;}
+img{border:none;}
+blockquote, q {quotes: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+button::-moz-focus-inner {border: 0;padding: 0;}
+
+.underline a, a.underline{
+    text-decoration: none;
+    border-bottom: 1px solid rgba(57, 170, 242,.3);
+    padding-top: 1px;
+}
+.underline  a:hover {border-bottom: 1px solid #008a9d;}
+.underline a.thumbnail {border: none;}
+.pseudo a, a.pseudo {text-decoration: none;border-bottom: 1px dotted rgb(57, 170, 242);}
+.pseudo a:hover, a.pseudo:hover {border-bottom: none;}
+#clearfix {clear: both;}
+
+.table     { display: table }
+.tr        { display: table-row }
+.thead     { display: table-header-group }
+.tbody     { display: table-row-group }
+.tfoot     { display: table-footer-group }
+.col       { display: table-column }
+.colgroup  { display: table-column-group }
+.td, .th   { display: table-cell;float: left;}
+
+/*remove fucking yellow stroke in google chrome*/
+input, textarea { outline:none; }
+input:active, textarea:active { outline:none; }
+:focus { outline:none; } 
