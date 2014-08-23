@@ -1,9 +1,12 @@
 Стайлит — легкий css фреймворк
 =======
-Не является каким либо форком. Разрабатывается исключительно для своих нужд.
+Не является каким либо форком. <br/>
+Разрабатывается исключительно для своих нужд.<br/><br/>
 Поддерживаемые браузеры:
-    Internet Explorer 8+
-    Firefox
-    Google Chrome
-    Opera
-    Safari
+    <ul>
+        <li>Internet Explorer 8+</li>
+        <li>Firefox</li>
+        <li>Google Chrome</li>
+        <li>Opera</li>
+        <li>Safari</li>
+    </ul>
