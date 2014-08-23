@@ -73,7 +73,6 @@ a:link, a:visited {
 }
 a:link, .pseudo_link, .pseudo_link:visited {
     color: rgb(0,122,197);
-    line-height: 1.2em;
 }
 a:hover,
 a.link:hover,
