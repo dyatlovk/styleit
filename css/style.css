@@ -12,7 +12,12 @@ body{background-color: #F6F5F3;}
 }
 .pull-right {float: right!important;}
 .inner {padding: 25px 25px 28px 25px;}
-.module {background-color: white;padding: 10px;}
+.module {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 6px -3px #E4E4E4;
+}
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6, .title {
