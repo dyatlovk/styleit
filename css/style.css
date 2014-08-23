@@ -1,7 +1,7 @@
 /* Copyright 2014 Kirill Dyatlov */
 
 html {height: 100%;}
-body{font-size: .8em;}
+body{font-size: .9em;}
 .page {min-width: 995px;min-height: 100%;padding: 0 20px;}
 .layout{width: 100%;}
 .layout:after,
@@ -10,9 +10,8 @@ body{font-size: .8em;}
     display: table;
     line-height: 0;
 }
-
 .pull-right {float: right!important;}
-
+.inner {padding: 25px 25px 28px 25px;}
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6, .title {
@@ -60,6 +59,7 @@ a:link, a:visited {
     text-decoration: none;
     border-bottom: 1px solid;
     background: none;
+    color: rgb(0,122,197);
 }
 a:link, .pseudo_link, .pseudo_link:visited {
     color: rgb(0,122,197);
@@ -138,3 +138,14 @@ dd {padding: 0 0 .1em 0;margin: 0;}
 .grid10,
 .grid11,
 .grid12 {float: right;}
+
+/*Sidebar*/
+.sidebar {padding-left: 1.25em;}
+
+/*Navigation*/
+.navigation li:before {
+    content: '';
+    content: none;
+    float: none;
+    margin-left: 0;
+}
