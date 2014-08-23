@@ -1,4 +1,9 @@
-styleit
+Стайлит — легкий css фреймворк
 =======
-
-css framework
+Не является каким либо форком. Разрабатывается исключительно для своих нужд.
+Поддерживаемые браузеры:
+    Internet Explorer 8+
+    Firefox
+    Google Chrome
+    Opera
+    Safari
