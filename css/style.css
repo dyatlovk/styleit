@@ -1,8 +1,8 @@
 /* Copyright 2014 Kirill Dyatlov */
 
 html {height: 100%;}
-body{font-size: .9em;}
-.page {min-width: 995px;min-height: 100%;padding: 0 20px;}
+body{background-color: #F6F5F3;}
+.page {min-width: 995px;min-height: 100%;}
 .layout{width: 100%;}
 .layout:after,
 .layout:before {
@@ -12,6 +12,7 @@ body{font-size: .9em;}
 }
 .pull-right {float: right!important;}
 .inner {padding: 25px 25px 28px 25px;}
+.module {background-color: white;padding: 10px;}
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6, .title {
@@ -47,6 +48,10 @@ h5 {
     font-size: 90%;
     text-transform: uppercase;
 }
+.module h1, .module h2, .module h3, .module h4, .module h5, .module h6 {
+    padding-top: 0;
+    margin-top: 0;
+}
 
 /* SPECIALS */
 p, ul, ol, dl, .data, .comment, picture, .footnotes {
@@ -63,6 +68,7 @@ a:link, a:visited {
 }
 a:link, .pseudo_link, .pseudo_link:visited {
     color: rgb(0,122,197);
+    line-height: 1.2em;
 }
 a:hover,
 a.link:hover,
@@ -139,8 +145,35 @@ dd {padding: 0 0 .1em 0;margin: 0;}
 .grid11,
 .grid12 {float: right;}
 
+.grid1 .inner,
+.grid2 .inner,
+.grid3 .inner,
+.grid4 .inner,
+.grid5 .inner,
+.grid6 .inner,
+.grid7 .inner,
+.grid8 .inner,
+.grid9 .inner,
+.grid10 .inner,
+.grid11 .inner,
+.grid12 .inner
+{
+    padding: 10px;
+}
+
 /*Sidebar*/
-.sidebar {padding-left: 1.25em;}
+.sidebar {
+    padding-left: 1.25em;
+    width: 70%;
+    min-width: 239px;
+    margin: 0 auto;
+}
+.sidebar.inner {padding: 25px 25px 28px 25px;}
+.sidebar.blue {background-color: #F3FAFA;}
+.sidebar h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
 
 /*Navigation*/
 .navigation li:before {
@@ -149,3 +182,6 @@ dd {padding: 0 0 .1em 0;margin: 0;}
     float: none;
     margin-left: 0;
 }
+
+/*Typography*/
+.smaller {font-size: 78%;}
