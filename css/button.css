@@ -48,6 +48,8 @@ a.button {
     background: #0941AF!important;
     color: #FFF!important;
     border: none!important;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 .button_clean {

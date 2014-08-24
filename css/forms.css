@@ -12,15 +12,15 @@ label.with-checkbox,
 label.with-radio{
     position: relative;
     padding-left: 25px;
-    display: inline-block;
     cursor: pointer;
+    margin-right: 1.5em;
 }
 label.with-checkbox input[type='checkbox'],
 label.with-checkbox input[type='radio'],
 label.with-radio input[type='checkbox'],
 label.with-radio input[type='radio'] {
     position: absolute;
-    top: 0;
+    top: 0.14em;
     left: 0;
 }
 input[type='checkbox'],
