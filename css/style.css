@@ -19,6 +19,17 @@ body{background-color: white;font-size: .87em;}
 /*    border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 6px 6px -3px #E4E4E4;*/
 }
+.module-grey {
+    background: rgb(240,242,230);
+    background: -moz-linear-gradient(132deg,  rgba(247,248,242,1) 0%, rgba(240,242,230,1) 100%);
+    background: -webkit-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: -o-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: -ms-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%); 
+}
+.module-darkgrey {
+    background-color: #454640;
+}
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6, .title {
@@ -58,6 +69,15 @@ h5 {
 /*    padding-top: 0;
     margin-top: 0;*/
 }
+h1+h2,
+h2+h3,
+h3+h4,
+h4+h5 {
+  margin-top: -0.2em;
+}
+h1.main-header {
+    margin: 1.4em 0 1.2em 0;
+}
 
 /* SPECIALS */
 p, ul, ol, dl, .data, .comment, picture, .footnotes {
@@ -81,29 +101,6 @@ sup {
     font-size: 65%;
     vertical-align: top;
     font-weight: normal;
-}
-
-/*Links*/
-a:link, a:visited {
-    text-decoration: none;
-    border-bottom: 1px solid;
-    background: none;
-    color: #007AC5;
-}
-a:link, .pseudo_link, .pseudo_link:visited {
-    color: #007AC5;
-}
-a:hover,
-a.link:hover,
-.no-visited.link:hover,
-.link:hover,
-.link:hover .link,
-.link:hover .pseudo_link,
-.pseudo_link:hover,
-.no-visited .link:hover {
-    color: #d2270b;
-    border-bottom-color: #622f26;
-    border-bottom-color: rgba(210,39,11,0.3);
 }
 
 /*Lists*/
@@ -221,3 +218,4 @@ dd {padding: 0 0 .1em 0;margin: 0;}
 
 /*Typography*/
 .smaller {font-size: 93%;}
+p.short {max-width: 65em;}

@@ -22,7 +22,13 @@ Russia
   cursor: pointer;
   white-space: nowrap;
   box-shadow: 0px 2px 4px -2px #6a6a6a;
-  
+}
+
+.button_compensated {
+  margin-left: -0.9em;
+}
+
+.button {
   background-color: #2FAFEA;
   background-image: -webkit-linear-gradient(top, #48bdf3, #1b72ac);
   background-image: -moz-linear-gradient(top, #48bdf3, #1b72ac);
@@ -43,7 +49,7 @@ Russia
   background-color: #3893d8;
   box-shadow: 0px 2px 6px -1px #235b86 inset;
 }
-.button_warning {
+.button_warning, a.button_warning {
   background-image: -webkit-linear-gradient(top, #ff6d6d, #c63939);
   background-image: -moz-linear-gradient(top, #ff6d6d, #c63939);
   background-image: -ms-linear-gradient(top, #ff6d6d, #c63939);
@@ -56,6 +62,9 @@ Russia
   background-image: -o-linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
   background-image: linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
 }
+a.button {
+    
+}
 
 .button_clean {
   position: relative;
@@ -63,7 +72,7 @@ Russia
 
   color: #999;
   background: #fff;
-  border-radius: 14px;
+  border-radius: 3px;
   box-shadow: none;
 }
 
@@ -73,7 +82,7 @@ Russia
   width: 100%;
   height: 100%;
   border: 1px solid #999;
-  border-radius: 14px;
+  border-radius: 3px;
   top: 0;
   left: 0;
 }
@@ -104,4 +113,32 @@ Russia
 .button_clean.button_active:after,
 .button_clean:active:after{
   border: 0 none;
+}
+
+/* active */
+.button_warning.button_active,
+.button_warning.button:active {
+  background-image: none;
+  background-color: #ff5757;
+  box-shadow: 0px 2px 6px -1px #9d3737 inset;
+}
+
+/* active */
+.button[disabled],
+.button.button_clean[disabled],
+.button.button_contrast[disabled],
+.button.button_bright[disabled],
+.button.button_active[disabled],
+.button.button_pressed[disabled],
+.button.button_warning[disabled] {
+  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #c8c8c8 100%);
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #c8c8c8 100%);
+  background-image: -ms-linear-gradient(top, #e8e8e8 0%, #c8c8c8 100%);
+  background-image: -o-linear-gradient(top, #e8e8e8 0%, #c8c8c8 100%);
+  background-image: linear-gradient(top, #e8e8e8 0%, #c8c8c8 100%);
+  background-color: #e8e8e8;
+
+  color: #ffffff;
+  box-shadow: 0 2px 2px 1px #b5b5b5;
+  cursor: default;
 }

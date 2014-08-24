@@ -52,15 +52,6 @@ table {
 
 button::-moz-focus-inner {border: 0;padding: 0;}
 
-.underline a, a.underline{
-    text-decoration: none;
-    border-bottom: 1px solid rgba(57, 170, 242,.3);
-    padding-top: 1px;
-}
-.underline  a:hover {border-bottom: 1px solid #008a9d;}
-.underline a.thumbnail {border: none;}
-.pseudo a, a.pseudo {text-decoration: none;border-bottom: 1px dotted rgb(57, 170, 242);}
-.pseudo a:hover, a.pseudo:hover {border-bottom: none;}
 #clearfix {clear: both;}
 
 .table     { display: table }
