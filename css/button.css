@@ -1,0 +1,107 @@
+/*
+© 2014 Kirill Dyatlov
+Saint Petersburg
+Russia
+*/
+/* 
+    Created on : 24.08.2014, 13:41:25
+    Author     : Jupiter
+*/
+
+.button {
+  font-size: 1em;
+  display: inline-block;
+  margin-right: 0.7em;
+  padding: 0.4em 0.9em;
+
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  border: 0px none;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 4px -2px #6a6a6a;
+  
+  background-color: #2FAFEA;
+  background-image: -webkit-linear-gradient(top, #48bdf3, #1b72ac);
+  background-image: -moz-linear-gradient(top, #48bdf3, #1b72ac);
+  background-image: -ms-linear-gradient(top, #48bdf3, #1b72ac);
+  background-image: -o-linear-gradient(top, #48bdf3, #1b72ac);
+  background-image: linear-gradient(top, #48bdf3, #1b72ac);
+}
+.button:hover {
+  background-color: #48bdf3;
+  background-image: -webkit-linear-gradient(top, #5bd8fd 0%, #3c97e2 36%, #3794d5 54%, #52c9ee 100%);
+  background-image: -moz-linear-gradient(top, #5bd8fd 0%, #3c97e2 36%, #3794d5 54%, #52c9ee 100%);
+  background-image: -o-linear-gradient(top, #5bd8fd 0%, #3c97e2 36%, #3794d5 54%, #52c9ee 100%);
+  background-image: linear-gradient(top, #5bd8fd 0%, #3c97e2 36%, #3794d5 54%, #52c9ee 100%);
+}
+.button_active,
+.button:active {
+  background-image: none;
+  background-color: #3893d8;
+  box-shadow: 0px 2px 6px -1px #235b86 inset;
+}
+.button_warning {
+  background-image: -webkit-linear-gradient(top, #ff6d6d, #c63939);
+  background-image: -moz-linear-gradient(top, #ff6d6d, #c63939);
+  background-image: -ms-linear-gradient(top, #ff6d6d, #c63939);
+  background-image: -o-linear-gradient(top, #ff6d6d, #c63939);
+  background-image: linear-gradient(top, #ff6d6d, #c63939);
+}
+.button_warning:hover {
+  background-image: -webkit-linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
+  background-image: -moz-linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
+  background-image: -o-linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
+  background-image: linear-gradient(top, #ff5f5f 31%, #dc4545 56%, #d24141 82%, #f85353 100%);
+}
+
+.button_clean {
+  position: relative;
+  overflow: visible;
+
+  color: #999;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+.button_clean:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+  border-radius: 14px;
+  top: 0;
+  left: 0;
+}
+
+.button_clean:hover {
+  color: #fff;
+  border: 0 none;
+  background-color: #5251bb;
+  background-image: -webkit-linear-gradient(top, #58b6e4 0%, #5251bb 50%, #4585cc 100%);
+  background-image: -moz-linear-gradient(top, #58b6e4 0%, #5251bb 50%, #4577c4 100%);
+  background-image: -o-linear-gradient(top, #58b6e4 0%, #5251bb 50%, #4585cc 100%);
+  background-image: linear-gradient(top, #58b6e4 0%, #5251bb 50%, #4585cc 100%);
+  box-shadow: 0 2px 2px 1px #40448e;
+}
+
+.button_clean:hover:after {
+  border: 0 none;
+}
+
+.button_clean.button_active,
+.button_clean:active {
+  color: #000;
+  border: 0 none;
+  background: #fff;
+  box-shadow: 0 2px 3px 2px #8EB0D6 inset;
+}
+
+.button_clean.button_active:after,
+.button_clean:active:after{
+  border: 0 none;
+}
