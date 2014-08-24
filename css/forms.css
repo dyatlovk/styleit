@@ -1,0 +1,119 @@
+/*
+© 2014 Kirill Dyatlov
+Saint Petersburg
+Russia
+*/
+/* 
+    Created on : 24.08.2014, 21:05:44
+    Author     : Jupiter
+*/
+
+label.with-checkbox,
+label.with-radio{
+    position: relative;
+    padding-left: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+label.with-checkbox input[type='checkbox'],
+label.with-checkbox input[type='radio'],
+label.with-radio input[type='checkbox'],
+label.with-radio input[type='radio'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+input[type='checkbox'],
+input[type='radio'] {
+    border: none;
+}
+
+input {
+    -webkit-transition: outline-color .3s ease-out;
+    -moz-transition: outline-color .3s ease-out;
+    transition: outline-color .3s ease-out;
+    outline-color: rgba(0, 0, 0, 0);
+}
+
+input:focus {
+    outline-color: #1658da;
+}
+
+textarea {
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 0 -2px #F0F0F0 inset, 0 0 0 1px #787878;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: .5em .7em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.detect_no-boxshadow textarea {
+    border: 1px solid #787878;
+}
+.input{
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 5px 0 -2px #F0F0F0 inset, 0 0 0 1px #787878;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: .4em .7em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.detect_no-boxshadow .input {
+    border: 1px solid #787878;
+    padding: .3em .65em;
+}
+.input_mr {
+    margin-right: .3em;
+}
+.input:focus {
+    box-shadow: 1px 5px 0 -2px #F0F0F0 inset, 0 0 0 1px #50a7e1;
+    outline: none;
+}
+.detect_no-boxshadow .input:focus {
+    border: 1px solid #50a7e1;
+}
+.input_textarea {
+    font-size: 90%;
+    height: 4em;
+    resize: vertical;
+    width: 100%;
+}
+.input_textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.input100 {
+    width: 100%;
+}
+.input50 {width: 50%;}
+/*Search Form*/
+.search-form {
+
+}
+.search-form__input {
+    margin-right: 4em;
+    padding-right: .4em;
+}
+.search-form__button {
+    width: 4em;
+    float: right;
+}
+
+.search-form__option {
+    margin-top: .5em;
+}
+fieldset.form-inline label {
+    width: 100%;
+    float: left;
+    margin: 0.5em 0 0;
+}

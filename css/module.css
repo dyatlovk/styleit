@@ -1,0 +1,35 @@
+/*
+© 2014 Kirill Dyatlov
+Saint Petersburg
+Russia
+*/
+/* 
+    Created on : 24.08.2014, 19:48:14
+    Author     : Jupiter
+*/
+
+.module {
+    padding: 10px;
+/*    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 6px -3px #E4E4E4;*/
+}
+.module-grey {
+    background: rgb(240,242,230);
+    background: -moz-linear-gradient(132deg,  rgba(247,248,242,1) 0%, rgba(240,242,230,1) 100%);
+    background: -webkit-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: -o-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: -ms-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
+    background: linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%); 
+}
+.module-darkgrey {
+    background-color: #454640;
+}
+.module-nobg {
+    background: none;
+}
+.module.lightgrey {color: #A3A3A3;}
+.module.darkgrey {color: #333;}
+.module h1, .module h2, .module h3, .module h4, .module h5, .module h6 {
+/*    padding-top: 0;
+    margin-top: 0;*/
+}

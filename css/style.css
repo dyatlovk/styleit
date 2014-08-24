@@ -13,23 +13,6 @@ body{background-color: white;font-size: .87em;}
 .pull-right {float: right!important;}
 .pull-left {float: left!important;}
 .inner {padding: 25px 25px 28px 25px;}
-.module {
-    background-color: white;
-    padding: 10px;
-/*    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 6px 6px -3px #E4E4E4;*/
-}
-.module-grey {
-    background: rgb(240,242,230);
-    background: -moz-linear-gradient(132deg,  rgba(247,248,242,1) 0%, rgba(240,242,230,1) 100%);
-    background: -webkit-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
-    background: -o-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
-    background: -ms-linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%);
-    background: linear-gradient(132deg,  rgba(247,248,242,1) 0%,rgba(240,242,230,1) 100%); 
-}
-.module-darkgrey {
-    background-color: #454640;
-}
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6, .title {
@@ -64,10 +47,6 @@ h5 {
 h5 {
     font-size: 90%;
     text-transform: uppercase;
-}
-.module h1, .module h2, .module h3, .module h4, .module h5, .module h6 {
-/*    padding-top: 0;
-    margin-top: 0;*/
 }
 h1+h2,
 h2+h3,
@@ -143,6 +122,9 @@ ul.navigation, .navigation ul {list-style-image: none;}
 dl {padding: 0;margin: 0;}
 dt {padding: 0 0 0.25em 0;margin: 1em 0 0;}
 dd {padding: 0 0 .1em 0;margin: 0;}
+.navigation li {
+    margin: 0.5em 0 0;
+}
 
 /*GRID SYSTEM*/
 .grid1 {width: 8.33333333%;}
