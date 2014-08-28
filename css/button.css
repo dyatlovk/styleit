@@ -31,6 +31,9 @@ Russia
 .button:hover {
   background-color: #052668;
 }
+button:not(:hover) {
+    transition: .6s;
+}
 .button_active,
 .button:active {
   background-image: none;
