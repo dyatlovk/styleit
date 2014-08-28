@@ -11,7 +11,7 @@ Russia
 label.with-checkbox,
 label.with-radio{
     position: relative;
-    padding-left: 25px;
+    padding-left: 20px;
     cursor: pointer;
     margin-right: 1.5em;
 }
