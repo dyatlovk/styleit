@@ -107,6 +107,9 @@ body {
   line-height: 1.5em;
   font-size: 14px;
 }
+button {
+  border-radius: 6px;
+}
 /*Typography*/
 h1,
 h2,
