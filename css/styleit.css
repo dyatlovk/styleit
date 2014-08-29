@@ -98,7 +98,10 @@ textarea:active {
 :focus {
   outline: none;
 }
-.layout-fluid {
+.page-fluid {
+  width: 100%;
+}
+.layout {
   width: 100%;
 }
 body {
