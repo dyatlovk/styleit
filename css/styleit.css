@@ -1,10 +1,14 @@
 /*© 2014 Kirill Dyatlov*/
+/* line 3, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\000033}}
 * {
   margin: 0px;
   padding: 0px;
   border: 0px;
   outline: none;
 }
+/* line 9, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\000039}}
 *,
 *:before,
 *:after {
@@ -12,6 +16,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* line 10, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\0000310}}
 html,
 body,
 div,
@@ -81,29 +87,33 @@ td {
   background: transparent;
   vertical-align: top;
 }
+/* line 27, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\0000327}}
 body {
   height: 100%;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 /*remove fucking yellow stroke in google chrome*/
+/* line 33, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\0000333}}
 input,
 textarea {
   outline: none;
 }
+/* line 34, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\0000334}}
 input:active,
 textarea:active {
   outline: none;
 }
+/* line 35, D:\work\Web\Server\domains\styleit.dev\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/reset\.less}line{font-family:\0000335}}
 :focus {
   outline: none;
 }
-.page-fluid {
-  width: 100%;
-}
-.layout {
-  width: 100%;
-}
+/* line 15, D:\work\Web\Server\domains\styleit.dev\less\styleit.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/work\/Web\/Server\/domains\/styleit\.dev\/less\/styleit\.less}line{font-family:\0000315}}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000;
