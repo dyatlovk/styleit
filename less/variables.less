@@ -1,10 +1,14 @@
-// Базовый цвет
-@gray-base:              #000;
-@gray-darker:            lighten(@gray-base, 13.5%); // #222
-@gray-dark:              lighten(@gray-base, 20%);   // #333
-@gray:                   lighten(@gray-base, 33.5%); // #555
-@gray-light:             lighten(@gray-base, 46.7%); // #777
-@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+// Чернобклая палитра
+@black:              #000;
+@gray-darker:            lighten(@black, 13.5%); // #222
+@gray-dark:              lighten(@black, 20%);   // #333
+@gray:                   lighten(@black, 33.5%); // #555
+@gray-light:             lighten(@black, 46.7%); // #777
+@gray-lighter:           lighten(@black, 93.5%); // #eee
+@white:             #fff;
+
+// Цветная палитра
+
 
 //Глобальные переменные
 @body-bg:               #fff;
@@ -15,22 +19,28 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          100%;
+@font-size-base:          14px;
 
 @font-size-h1:            floor((@font-size-base * 2.3)); // 230%
 @font-size-h2:            floor((@font-size-base * 1.7)); // 170%
 @font-size-h3:            ceil((@font-size-base * 1.48)); // 148%
-@font-size-h4:            ceil((@font-size-base * 0.9)); // 90
-@font-size-h5:            ceil((@font-size-base * 0.9)); // 90
+@font-size-h4-5:          ceil((@font-size-base * 0.9)); // 90%
 
-@line-height-base:        1.5;
+@line-height-base:        1.5em;
 @headings-font-family:    inherit;
-@headings-font-weight:    500;
+@headings-font-weight:    bold;
 @headings-color:          inherit;
+@headings-font-style:     normal;
 
+// Закругления
 @border-radius-base:        4px;
 @border-radius-large:       6px;
 @border-radius-small:       3px;
+
+// Ссылки
+@link-color:                #007AC5;
+@link-hover-color:          #d2270b;
+@link-not-hover:            .6s;
 
 // Кнопки
 
@@ -42,7 +52,7 @@
 @grid-columns:              12;
 @grid-gutter-width:         18px;
 
-@layout-fluid:              1;
+
 @max-width:                 100%;
 @min-width:                 995px;
 

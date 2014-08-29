@@ -1,1 +1,25 @@
 /*Links*/
+
+
+a:link, a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid lighten(@link-color, 20%);
+    background: none;
+    color: @link-color;
+
+    &:hover, &:focus {
+        color: @link-hover-color;
+        border-color: lighten(@link-hover-color, 20%);
+        cursor: pointer;
+    }
+    &:not(:hover) {
+        transition: @link-not-hover;
+    }
+}
+.pseudo_link, a.pseudo_link {
+    border-bottom: 1px dashed;
+    cursor: pointer;
+}
+.link_no-underline {
+    border-bottom: 0 none !important;
+}
