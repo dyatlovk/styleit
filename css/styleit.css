@@ -1,9 +1,20 @@
-@charset "utf-8";
+@charset "UTF-8";
 /* © 2014 Kirill Dyatlov */
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*Компилятор Sass*/
 body {
-  margin: 0;
-}
+  margin: 0; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: none; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 article,
 aside,
 details,
@@ -16,88 +27,88 @@ main,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
+
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
+
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
+
 [hidden],
 template {
-  display: none;
-}
+  display: none; }
+
 a {
-  background: transparent;
-}
+  background: transparent; }
+
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
+
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
+
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
+
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
+
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
+
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
+
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
+
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
+
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
+
 img {
-  border: 0;
-}
+  border: 0; }
+
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
+
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
-}
+  height: 0; }
+
 pre {
-  overflow: auto;
-}
+  overflow: auto; }
+
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
-}
+  font-size: 1em; }
+
 button,
 input,
 optgroup,
@@ -105,253 +116,83 @@ select,
 textarea {
   color: inherit;
   font: inherit;
-  margin: 0;
-}
+  margin: 0; }
+
 button {
-  overflow: visible;
-}
+  overflow: visible; }
+
 button,
 select {
-  text-transform: none;
-}
+  text-transform: none; }
+
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 button[disabled],
 html input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 input {
-  line-height: normal;
-}
+  line-height: normal; }
+
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
-  padding: 0;
-}
+  padding: 0; }
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
+
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
+
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
+
 legend {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
+
 optgroup {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
+
 td,
 th {
-  padding: 0;
-}
-/*remove fucking yellow stroke in google chrome*/
-input,
-textarea {
-  outline: none;
-}
-input:active,
-textarea:active {
-  outline: none;
-}
+  padding: 0; }
+
+input, textarea {
+  outline: none; }
+
+input:active, textarea:active {
+  outline: none; }
+
 :focus {
-  outline: none;
-}
-/*Main style*/
-html {
-  overflow-x: auto;
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000000;
-  background: #ffffff;
-  line-height: 1.5em;
-  font-size: 14px;
-}
-/*Typography*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.title {
-  font-family: inherit;
-  font-weight: bold;
-  font-style: normal;
-  color: inherit;
-}
-h1 {
-  font-size: 32px;
-  margin: 0.25em 0 0 0;
-  padding: 0;
-  line-height: 1;
-}
-h2,
-h3 {
-  line-height: 1.2;
-  margin: 0.4em 0 0 0;
-  padding: 0.5em 0 0 0;
-}
-h2 {
-  font-size: 23px;
-}
-h3 {
-  font-size: 21px;
-}
-h4,
-h5 {
-  font-size: 13px;
-  line-height: 1.3;
-  margin: 0.4em 0 0 0;
-  padding: 0.6em 0 0 0;
-}
-h5 {
-  text-transform: uppercase;
-}
-h1 + h2,
-h2 + h3,
-h3 + h4,
-h4 + h5 {
-  margin-top: -0.2em;
-}
-h1.main-header {
-  margin: 1.4em 0 1.2em 0;
-}
-p,
-ul,
-ol,
-dl,
-.data,
-.comment,
-picture,
-.footnotes {
-  padding: 0;
-  margin: 0.8em 0 0;
-}
-p.short {
-  max-width: 65em;
-}
-.font-smaller {
-  font-size: 93%;
-}
-/*Forms*/
-/*Grid*/
-.column-1 {
-  width: 8.33333333%;
-  float: right;
-}
-.column-2 {
-  width: 16.66666667%;
-  float: right;
-}
-.column-3 {
-  width: 25%;
-  float: right;
-}
-.column-4 {
-  width: 33.33333333%;
-  float: right;
-}
-.column-5 {
-  width: 41.66666667%;
-  float: right;
-}
-.column-6 {
-  width: 50%;
-  float: right;
-}
-.column-7 {
-  width: 58.33333333%;
-  float: right;
-}
-.column-8 {
-  width: 66.66666667%;
-  float: right;
-}
-.column-9 {
-  width: 75%;
-  float: right;
-}
-.column-10 {
-  width: 83.33333333%;
-  float: right;
-}
-.column-11 {
-  width: 91.66666667%;
-  float: right;
-}
-.column-12 {
-  width: 100%;
-  float: right;
-}
-/*Lists*/
-/*Links*/
-a:visited,
-a:link {
-  text-decoration: none;
-  border-bottom: 1px solid #99ccff;
-  background: none;
-  color: #0066cc;
-}
-a:hover,
-a:focus {
-  color: #d2270b;
-  border-color: #fbb9ae;
-  cursor: pointer;
-}
-a:not(:hover) {
-  transition: 0.6s;
-}
-a.pseudo_link {
-  border-bottom: 1px dashed;
-  cursor: pointer;
-}
-a.link_no-underline {
-  border-bottom: 0 none !important;
-}
-/*Utility*/
-/*Floats*/
-.pull-right {
-  float: right!important;
-}
-.pull-left {
-  float: left!important;
-}
-/*Toggle*/
-.hide {
-  display: none!important;
-}
-.show {
-  display: block!important;
-}
+  outline: none; }
+
+/*# sourceMappingURL=styleit.css.map */

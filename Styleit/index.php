@@ -13,15 +13,11 @@
         <link rel="stylesheet" type="text/css" href="css/styleit.css">  
     </head>
     <body>
-        <div class="row">
-            <div class="layout">
-                <div class="sidebar column-3">
-                    <?php include '/includes/sidebar.html'; ?>
-                </div>
-                <div class="main-content column-9">
-                    <?php include '/includes/main-content.html'; ?>
-                </div>
-            </div>
+        <div class="sidebar column-3">
+            <?php include '/includes/sidebar.html'; ?>
+        </div>
+        <div class="main-content column-9">
+            <?php include '/includes/main-content.html'; ?>
         </div>
     </body>
 </html>

@@ -2,25 +2,25 @@
 
 
 a {
-    &:visited, &:link {
+    &:visited, &:link, .link &, .link &:visited {
         text-decoration: none;
         border-bottom: 1px solid lighten(@link-color, 40%);
         background: none;
         color: @link-color;
     }
-    &:hover, &:focus {
+    &:hover, &:focus, .link &:hover, .link &:focus {
         color: @link-hover-color;
         border-color: lighten(@link-hover-color, 40%);
         cursor: pointer;
     }
-    &:not(:hover) {
+    &:not(:hover), .link &:not(:hover) {
         transition: @link-not-hover;
     }
     &.pseudo_link {
         border-bottom: 1px dashed;
         cursor: pointer;
     }
-    &.link_no-underline {
+    &.link_no-underline, .link_no-underline & {
         border-bottom: 0 none !important;
     }
 }
