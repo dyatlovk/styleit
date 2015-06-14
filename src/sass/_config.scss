@@ -1,0 +1,96 @@
+// w/b palette
+$black : #000;
+$gray-darker : lighten($black, 13.5%);
+// #222
+$gray-dark : lighten($black, 20%);
+// #333
+$gray : lighten($black, 33.5%);
+// #555
+$gray-light : lighten($black, 46.7%);
+// #777
+$gray-lighter : lighten($black, 93.5%);
+// #eee
+$white : #FFF;
+
+// Color palette
+$color1 : #6347F1;
+$color2 : #D92C5D;
+$color3 : #FFEB4F;
+
+//Globals
+$body-bg : #FFF;
+$padding-base-vertical : 6px;
+$padding-base-horizontal : 12px;
+
+// Typography
+$font-family-sans-serif : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif : Georgia, "Times New Roman", Times, serif;
+$font-family-monospace : Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base : $font-family-sans-serif;
+
+$font-size-base : 16px;
+
+// goldenratio (1.618),
+// perferctfifth (1.5),
+// augmentedfourth (1.414),
+// perfectfourth (1.333)
+// majorthird (1.250)
+// minorthird (1.200)
+// majorsecond (1.125)
+// minorsecond (1.067)
+$type : majorthird;
+$line-height-base : 1.6em;
+$headings-font-family : $font-family-sans-serif;
+$headings-font-weight : bold;
+$headings-color : inherit;
+$headings-font-style : normal;
+
+// Rounded
+$border-radius-base : 4px;
+$border-radius-large : 6px;
+$border-radius-small : 3px;
+
+// Links
+$link-color : #06C;
+$link-underline-color : $link-color;
+$link-hover-color : #D2270B;
+$link-not-hover : 0;
+
+// Buttons
+
+// Forms
+
+// Grid
+$susy : (
+        flow: ltr,
+        math: fluid,
+        output: float,
+        gutter-position: after,
+        container: auto,
+        container-position: center,
+        columns: 12,
+        gutters: 20px/165px,
+        column-width: 165px,
+        global-box-sizing: border-box,
+        last-flow: to,
+        debug: (
+                image: show,
+                color: rgba(#C5D4FF, .25),
+                output: background,
+                toggle: top right,
+        ),
+        use-custom: (
+                background-image: true,
+                background-options: false,
+                box-sizing: true,
+                clearfix: false,
+                rem: true,
+        )
+);
+$gridtype : fix;
+$grid-columns : 12;
+$grid-columns-gutter : 20px;
+$grid-outer-space : 20px;
+$max-width : 90%;
+$min-width : 995px;
+$fixed-width : 960px;
