@@ -1,0 +1,130 @@
+// Links
+
+a {
+    &:visited, &:link, .link & {
+        text-decoration : none;
+        border-bottom   : 1px solid $link-underline-color;
+        background      : none;
+        color           : $link-color;
+        }
+    &:hover, &:focus, .link &:hover, .link &:focus {
+        color        : $link-hover-color;
+        border-color : $link-underline-color;
+        cursor       : pointer;
+        }
+    &:not(:hover), .link &:not(:hover) {
+        transition : $link-not-hover;
+        }
+    &.pseudo_link {
+        border-bottom : 1px dashed;
+        cursor        : pointer;
+        }
+    &.link_no-underline, .link_no-underline & {
+        border-bottom : 0 none !important;
+        }
+    &.no-underline, .no-underline & {
+        border-bottom : 0 none !important;
+        }
+    text-decoration : none;
+    border-bottom   : 1px solid $link-underline-color;
+    background      : none;
+    color           : $link-color;
+    }
+
+.red a {
+    &:visited, &:link, .link & {
+        text-decoration : none;
+        border-bottom   : 1px solid $link-color;
+        background      : none;
+        color           : $link-color;
+        }
+    &:hover, &:focus, .link &:hover, .link &:focus {
+        color        : #F00038;
+        border-color : lighten($link-color, 40%);
+        cursor       : pointer;
+        }
+    &:not(:hover), .link &:not(:hover) {
+        transition : $link-not-hover;
+        }
+    &.pseudo_link {
+        border-bottom : 1px dashed;
+        cursor        : pointer;
+        }
+    &.link_no-underline, .link_no-underline & {
+        border-bottom : 0 none !important;
+        }
+    &.no-underline {
+        border-bottom : 0 none !important;
+        }
+    text-decoration : none;
+    border-bottom   : 1px solid $link-color;
+    background      : none;
+    color           : $link-color;
+    }
+
+.white a {
+    &:visited, &:link, .link & {
+        text-decoration : none;
+        border-bottom   : 1px solid white;
+        background      : none;
+        color           : white;
+        }
+    &:hover, &:focus, .link &:hover, .link &:focus {
+        color        : #F00038;
+        border-color : $link-color;
+        cursor       : pointer;
+        }
+    &:not(:hover), .link &:not(:hover) {
+        transition : $link-not-hover;
+        }
+    &.pseudo_link {
+        border-bottom : 1px dashed;
+        cursor        : pointer;
+        }
+    &.link_no-underline, .link_no-underline & {
+        border-bottom : 0 none !important;
+        }
+    &.no-underline {
+        border-bottom : 0 none !important;
+        }
+    text-decoration : none;
+    border-bottom   : 1px solid white;
+    background      : none;
+    color           : white;
+    }
+
+.dark a {
+    &:visited, &:link, .link & {
+        text-decoration : none;
+        border-bottom   : 1px solid $link-color;
+        background      : none;
+        color           : $link-color;
+        }
+    &:hover, &:focus, .link &:hover, .link &:focus {
+        color        : $link-color;
+        border-color : lighten($link-color, 40%);
+        cursor       : pointer;
+        }
+    &:not(:hover), .link &:not(:hover) {
+        transition : $link-not-hover;
+        }
+    &.pseudo_link {
+        border-bottom : 1px dashed;
+        cursor        : pointer;
+        }
+    &.link_no-underline, .link_no-underline & {
+        border-bottom : 0 none !important;
+        }
+    &.no-underline {
+        border-bottom : 0 none !important;
+        }
+    text-decoration : none;
+    border-bottom   : 1px solid $link-color;
+    background      : none;
+    color           : $link-color;
+    }
+
+@mixin no-underline {
+    border-bottom   : 0 none !important;
+    text-decoration : none;
+    }

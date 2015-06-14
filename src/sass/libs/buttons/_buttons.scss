@@ -1,0 +1,34 @@
+a.btn,
+button.btn,
+input.btn {
+    padding         : $padding-base-vertical $padding-base-horizontal;
+    font-size       : $font-size-base;
+    cursor          : pointer;
+    border-radius   : $border-radius-base;
+    border          : none;
+    height          : auto;
+    color           : $white;
+    text-decoration : none;
+    font-weight     : normal;
+    display         : inline-block;
+    white-space     : nowrap;
+    font-family     : $font-family-base;
+    }
+
+.form .btn { margin-right : 20px }
+
+.btn-2 {
+    background-color : $color2;
+    &:hover { background-color : darken($color2, 10%); }
+    }
+
+.btn-1 {
+    background-color : $color1;
+    &:hover { background-color : darken($color1, 10%); }
+    }
+
+.btn-3 {
+    background-color : $color3;
+    color            : $black!important;
+    &:hover { background-color : darken($color3, 10%); }
+    }
