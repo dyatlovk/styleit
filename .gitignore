@@ -3,3 +3,5 @@
 /old/
 /.idea/
 /.sass-cache/
+node_modules
+trash

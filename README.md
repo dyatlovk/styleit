@@ -1,20 +1,35 @@
-Стайлит — легкий css-каркас
-=======
-Распространяется под лицензией MIT.<br/>
-Все права принадлежат Кириллу Дятлову.<br/>
-23 августа 2014 <br/>
-<br/>
-Не является каким либо форком. <br/>
-Разрабатывается исключительно для своих нужд.<br/><br/>
-Поддерживаемые браузеры:
-    <ul>
-        <li>Internet Explorer 8+</li>
-        <li>Firefox</li>
-        <li>Google Chrome</li>
-        <li>Opera</li>
-        <li>Safari</li>
-    </ul>
-    
-Каркас имеет резиновую ширину, без ограничений.
-Все шрифты, ширина колонок, межстрочные расстояния заданы с помощью процентных соотношений. Это значит, что изменение размера основного шрифта в body повлечет изменения по всему проекту, включая интерлиньяж.<br/><br/>
-Позиции модулей по умолчанию реализованы через float:right. Для изменения порядка следования блока имеется дополнительный класс .pull-left.
+
+# Styleit
+
+Light front-end HTML & CSS Framework
+
+Supported browsers:
+
++ Internet Explorer 8+
++ Firefox
++ Google Chrome
++ Opera
++ Safari
+
+
+## Table of Contents
+
++ [Quick start](#quick-start)
++ [Copyright and license](#copyright-and-license)
++ [Creators](#creators)
+
+
+## Quick start
+
++   Clone the repo: `git clone https://github.com/Lunarsu/styleit.git` 
+    or download zip `https://github.com/Lunarsu/styleit/archive/master.zip`
+
+
+## Creators
+
+[Kirill Dyatlov](https://github.com/Lunarsu)
+
+## Copyright and license
+
+23 August 2014.
+Released under [the MIT license](https://github.com/Lunarsu/styleit/blob/master/LICENSE)
