@@ -4,11 +4,21 @@ extends layout/_layout
 block title
 	| Grid
 
+// HEADER
+block header
+	include layout/_menu
+
 // CONTENT
 block content
-	main
-		.wrap
+	#layout
+		main
+			.wrapper
+				h1 Base grid system
+				.row
+					- for (var x = 0; x < 12; x++)
+						.col-1 #{x+1}
 
-//FOOTER
+
+// FOOTER
 block footer
-	footer
+	include layout/_footer

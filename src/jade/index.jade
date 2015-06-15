@@ -1,17 +1,73 @@
 extends layout/_layout
 
+// SET TITLE
 block title
 	|  Home page
 
-block content
-	main
-		.wrapper
-			h1 Бесплатный стимул глазами современников
-			p
-				| Notice the extra info that I included in the tag.
-				| You can put whatever you want prior to, inside of, and after the block title
-				| The resulting tag will contain all of the content that you specify,
-				| including the content within the block, by default.
+// HEADER
+block header
+	include layout/_menu
 
+// MAIN CONTENT
+block content
+	#layout
+		main
+			.wrapper
+
+				h1 War and Peace by Leo Tolstoy: Chapter I
+				p
+					| "Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes.
+					| But I warn you, if you don't tell me that this means war,
+					| if you still try to defend the infamies and horrors perpetrated by that Antichrist-
+					| I really believe he is Antichrist- I will have nothing more to do with you and you are no
+					| longer my friend, no longer my 'faithful slave,' as you call yourself!
+					| But how do you do? I see I have frightened you- sit down and tell me all the news."
+				p
+					| It was in July, 1805, and the speaker was the well-known Anna Pavlovna Scherer,
+					| maid of honor and favorite of the Empress Marya Fedorovna. With these words she greeted
+					| Prince Vasili Kuragin, a man of high rank and importance, who was the first to arrive at her
+					| reception. Anna Pavlovna had had a cough for some days. She was, as she said, suffering from la
+					| grippe; grippe being then a new word in St. Petersburg, used only by the elite.
+
+				h2 War and Peace by Leo Tolstoy: Chapter I
+				p
+					| "Heavens! what a virulent attack!" replied the prince, not in the least disconcerted by this
+					| reception. He had just entered, wearing an embroidered court uniform, knee breeches, and shoes,
+					| and had stars on his breast and a serene expression on his flat face. He spoke in that refined
+					| French in which our grandfathers not only spoke but thought, and with the gentle, patronizing
+					| intonation natural to a man of importance who had grown old in society and at court. He went up
+					| to Anna Pavlovna, kissed her hand, presenting to her his bald, scented, and shining head, and
+					| complacently seated himself on the sofa.
+				P
+					| "Can one be well while suffering morally? Can one be calm in times like these if one has any feeling?"
+					| said Anna Pavlovna. "You are staying the whole evening, I hope?"
+
+				h3 She suddenly paused, smiling at her own impetuosity.
+				p
+					| "In a moment. A propos," she added, becoming calm again, "I am expecting two very interesting men
+					| tonight, le Vicomte de Mortemart, who is connected with the Montmorencys through the Rohans, one of
+					| the best French families. He is one of the genuine emigres, the good ones. And also the Abbe Morio.
+					| Do you know that profound thinker? He has been received by the Emperor. Had you heard?"
+
+				h4 He had now been for some days in Moscow and was staying as usual at his father's house.
+				p
+					| Pierre, after all, had not managed to choose a career for himself in Petersburg, and had been expelled
+					| from there for riotous conduct and sent to Moscow. The story told about him at Count Rostov's was
+					| true. Pierre had taken part in tying a policeman to a bear. He had now been for some days in Moscow
+					| and was staying as usual at his father's house. Though he expected that the story of his escapade
+					| would be already known in Moscow and that the ladies about his father- who were never favorably
+					| disposed toward him- would have used it to turn the count against him, he nevertheless on the day
+					| of his arrival went to his father's part of the house. Entering the drawing room, where the
+					| princesses spent most of their time, he greeted the ladies, two of whom were sitting at embroidery
+					| frames while a third read aloud. It was the eldest who was reading- the one who had met
+					| Anna Mikhaylovna. The two younger ones were embroidering: both were rosy and pretty and they
+					| differed only in that one had a little mole on her lip which made her much prettier. Pierre was
+					| received as if he were a corpse or a leper. The eldest princess paused in her reading and silently
+					| stared at him with frightened eyes; the second assumed precisely the same expression; while the
+					| youngest, the one with the mole, who was of a cheerful and lively disposition, bent over her frame
+					| to hide a smile probably evoked by the amusing scene she foresaw. She drew her wool down through
+					| the canvas and, scarcely able to refrain from laughing, stooped as if trying to make out the pattern.
+
+// FOOTER
 block footer
-	footer
+	include layout/_footer

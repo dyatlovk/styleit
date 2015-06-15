@@ -1,4 +1,0 @@
-@mixin fixedgrid {
-    .wrapper { width : $fixed-width; margin : auto; padding: 0 $grid-outer-space; }
-    .row {width: 100%;float: left}
-    }

@@ -1,5 +1,4 @@
 /* 2014 Kirill Dyatlov */
-/*Compiled by Sass*/
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +31,36 @@ h4:first-child,
 h5:first-child,
 .like-header:first-child {
   margin-top: 0; }
+
+p {
+  line-height: 1.6em; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: inherit;
+  font-style: normal;
+  line-height: 1.2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em; }
+
+h2 {
+  font-size: 2.369em; }
+
+h3 {
+  font-size: 1.777em; }
+
+h4 {
+  font-size: 1.333em; }
+
+small, .font_small {
+  font-size: 0.75em; }
 
 a.btn,
 button.btn,
@@ -67,6 +96,21 @@ input.btn {
   color: #000 !important; }
   .btn-3:hover {
     background-color: #ffe51c; }
+
+.row {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .row:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.col-1 {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  background-color: #eeeeee; }
 
 .before_list {
   margin-bottom: 0; }
@@ -210,48 +254,4 @@ body {
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6em;
   color: #000;
-  background-color: #FFF;
-  max-width: 80em;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(197, 212, 255, 0.25), rgba(255, 255, 255, 0.25) 89.18919%, transparent 89.18919%);
-  background-size: 8.40909%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top; }
-  body:after {
-    content: " ";
-    display: block;
-    clear: both; }
-
-p {
-  line-height: 1.6em; }
-
-p {
-  margin-bottom: 1.3em; }
-
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: inherit;
-  font-style: normal;
-  line-height: 1.2; }
-
-h1 {
-  margin-top: 0;
-  font-size: 2.441em; }
-
-h2 {
-  font-size: 1.953em; }
-
-h3 {
-  font-size: 1.563em; }
-
-h4 {
-  font-size: 1.25em; }
-
-small, .font_small {
-  font-size: 0.8em; }
-
-/*# sourceMappingURL=styleit.css.map */
+  background-color: #FFF; }

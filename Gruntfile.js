@@ -4,10 +4,13 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     style: 'nested',
+                    noCache: false,
+                    update: true,
+                    sourcemap: 'none',
                     require: 'susy'
                 },
                 files: {
-                    'build/stylesheets/styleit.css': 'src/sass/styleit.scss'
+                    'build/assets/stylesheets/styleit.css': 'src/sass/styleit.scss'
                 }
             }
         },
@@ -20,6 +23,19 @@ module.exports = function (grunt) {
                 },
                 files: {"build": ["src/jade/*.jade"]}
             }
+        },
+
+        jquery: {
+            dist: {
+                output: "build/assets/javascripts/jquery",
+                options: {
+                    prefix: "jquery-min-",
+                    minify: true
+                },
+                versions: {
+                    "1.10.0": ["ajax", "deprecated"]
+                }
+            }
         }
 
     });
@@ -27,5 +43,8 @@ module.exports = function (grunt) {
     require('time-grunt')(grunt);
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-jade');
-    grunt.registerTask('default', ['sass', 'jade']);
+    grunt.loadNpmTasks('grunt-newer');
+    grunt.loadNpmTasks("grunt-jquery-builder");
+
+    grunt.registerTask('default', ['sass', 'jade', 'newer:jquery']);
 };

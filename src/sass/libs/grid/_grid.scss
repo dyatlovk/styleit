@@ -1,2 +1,5 @@
-@import "fixed";
-@import "fluid";
+@import "susy";
+
+// Demo for base grid
+.row{ @include container; }
+.col-1 { @include span(1); background-color: $gray-lighter}

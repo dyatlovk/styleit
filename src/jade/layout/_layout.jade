@@ -7,9 +7,13 @@ html(lang="en")
 			block title
 				| Light CSS framework
 
-		link(rel='stylesheet', href='./stylesheets/styleit.css',type='text/css')
+		// Style
+		link(rel='stylesheet', href='./assets/stylesheets/styleit.css',type='text/css')
+
+		// JS
+		script(type="text/javascript", src="./assets/javascripts/jquery/jquery-min-1.10.0.js")
 
 	body
-		include _menu
+		block header
 		block content
 		block footer

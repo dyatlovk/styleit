@@ -1,7 +1,0 @@
-@mixin fluidgrid($col) {
-    .wrapper { width : $max-width; min-width : $min-width; margin : auto; }
-    .row { width : $max-width; float : left }
-    @for $i from 1 through #{$col} {
-        .col-#{$i} {float: left;}
-        }
-    }

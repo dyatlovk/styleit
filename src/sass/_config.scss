@@ -38,7 +38,7 @@ $font-size-base : 16px;
 // minorthird (1.200)
 // majorsecond (1.125)
 // minorsecond (1.067)
-$type : majorthird;
+$type : perfectfourth;
 $line-height-base : 1.6em;
 $headings-font-family : $font-family-sans-serif;
 $headings-font-weight : bold;
@@ -64,17 +64,17 @@ $link-not-hover : 0;
 $susy : (
         flow: ltr,
         math: fluid,
-        output: float,
+        output: isolate,
         gutter-position: after,
-        container: auto,
-        container-position: center,
+        container: 100%,
+        container-position: 20px,
         columns: 12,
-        gutters: 20px/165px,
-        column-width: 165px,
+        gutters: .25,
+        column-width: false,
         global-box-sizing: border-box,
-        last-flow: to,
+        last-flow: after,
         debug: (
-                image: show,
+                image: hide,
                 color: rgba(#C5D4FF, .25),
                 output: background,
                 toggle: top right,
@@ -87,10 +87,3 @@ $susy : (
                 rem: true,
         )
 );
-$gridtype : fix;
-$grid-columns : 12;
-$grid-columns-gutter : 20px;
-$grid-outer-space : 20px;
-$max-width : 90%;
-$min-width : 995px;
-$fixed-width : 960px;

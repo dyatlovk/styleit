@@ -2,10 +2,4 @@ body {
     font             : $font-size-base $font-family-base;
     line-height      : $line-height-base;
     color            : $black;
-    background-color : $body-bg;
-    @include container(80em);
-    }
-
-p { line-height : $line-height-base }
-
-@include typeScale($type);
+    background-color : $body-bg; }
