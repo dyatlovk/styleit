@@ -1,8 +1,6 @@
 /nbproject/
-/css/old/
-/old/
 /.idea/
 /.sass-cache/
 node_modules
 trash
-build/stylesheets/styleit.css.map
+*.css.map
