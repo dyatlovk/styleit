@@ -23,10 +23,24 @@ Supported browsers:
 
 ## Quick start
 
-+   Clone the repo: `git clone https://github.com/Lunarsu/styleit.git` 
-    or download manually
++   Clone the repo: `git clone https://github.com/Lunarsu/styleit.git` <br>
+    or download manually:
     - zip [https://github.com/Lunarsu/styleit/zipball/master](https://github.com/Lunarsu/styleit/zipball/master)
     - tar [https://github.com/Lunarsu/styleit/tarball/master](https://github.com/Lunarsu/styleit/tarball/master)
++   unzip/untar
++   see demo in index.html
+
+
+## Build
+
+To compile Styleit sure you have installed Node, Grunt, Git and Ruby
+
++   Clone the repo: `git clone https://github.com/Lunarsu/styleit.git`
++   Go in project dir and install dependencies:
+    - `npm install`
++   Build your project, type in cmd `grunt`.
+
+If build done, without errors all files generate and copy from /src to /build
 
 
 ## Creators
