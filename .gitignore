@@ -1,6 +1,5 @@
 /nbproject/
 /.idea/
-/.sass-cache/
 node_modules
-trash
 *.css.map
+.sass-cache
